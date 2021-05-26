@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="UTF-8">
+  <meta name="viewport" content="with=device=width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title></title>
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <img src="logo.png" class="logo" />
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">Content</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </div>
+  <div class="text">
+    <a href="" class="AllATag">Photography Introduction</a>
+    <a href="" class="AllATag">Rules Of Third</a>
+    <a href="" class="AllATag">Leading Line</a>
+    <a href="" class="AllATag">Curve line</a>
+    <a href="" class="AllATag">Diagonal</a>
+    <a href="" class="AllATag">Perspective</a>
+    <a href="" class="AllATag">Negative space</a>
+    <a href="" class="AllATag">Reflection</a>
+    <a href="" class="AllATag">Symmetry</a>
+    <a href="" class="AllATag">Framing</a>
+    <a href="" class="AllATag">Golden Ratio</a>
+    <a href="" class="AllATag">Golden Triangle</a>
+    <a href="" class="AllATag">Bird Eye View</a>
+  </div>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
